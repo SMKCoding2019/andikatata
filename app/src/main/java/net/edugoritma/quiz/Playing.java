@@ -46,13 +46,9 @@ public class Playing extends AppCompatActivity implements View.OnClickListener {
 
         btnA = (Button)findViewById(R.id.btnAnswerA);
         btnB = (Button)findViewById(R.id.btnAnswerB);
-        btnC = (Button)findViewById(R.id.btnAnswerC);
-        btnD = (Button)findViewById(R.id.btnAnswerD);
 
         btnA.setOnClickListener(this);
         btnB.setOnClickListener(this);
-        btnC.setOnClickListener(this);
-        btnD.setOnClickListener(this);
     }
 
     @Override
@@ -114,8 +110,6 @@ public class Playing extends AppCompatActivity implements View.OnClickListener {
 
             btnA.setText(Common.questionList.get(index).getAnswerA());
             btnB.setText(Common.questionList.get(index).getAnswerB());
-            btnC.setText(Common.questionList.get(index).getAnswerC());
-            btnD.setText(Common.questionList.get(index).getAnswerD());
 
             mCountDown.start(); //timer jalan
         }

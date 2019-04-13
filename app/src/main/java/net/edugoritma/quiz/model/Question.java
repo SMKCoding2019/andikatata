@@ -2,17 +2,16 @@ package net.edugoritma.quiz.model;
 
 public class Question {
 
-    private String Question,AnswerA,AnswerB,AnswerC,AnswerD,CorrectAnswer,CategoryId,IsImageQuestion;
+    private String Question,AnswerA,AnswerB,CorrectAnswer,CategoryId,IsImageQuestion;
 
     public Question() {
     }
 
-    public Question(String question, String answerA, String answerB, String answerC, String answerD, String correctAnswer, String categoryId, String isImageQuestion) {
+    public Question(String question, String Benar, String Salah, String correctAnswer, String categoryId, String isImageQuestion) {
         Question = question;
-        AnswerA = answerA;
-        AnswerB = answerB;
-        AnswerC = answerC;
-        AnswerD = answerD;
+        AnswerA = Benar;
+        AnswerB = Salah;
+
         CorrectAnswer = correctAnswer;
         CategoryId = categoryId;
         IsImageQuestion = isImageQuestion;
@@ -30,33 +29,18 @@ public class Question {
         return AnswerA;
     }
 
-    public void setAnswerA(String answerA) {
-        AnswerA = answerA;
+    public void setAnswerA(String Benar) {
+        AnswerA = Benar;
     }
 
     public String getAnswerB() {
         return AnswerB;
     }
 
-    public void setAnswerB(String answerB) {
-        AnswerB = answerB;
+    public void setAnswerB(String Salah) {
+        AnswerB = Salah;
     }
 
-    public String getAnswerC() {
-        return AnswerC;
-    }
-
-    public void setAnswerC(String answerC) {
-        AnswerC = answerC;
-    }
-
-    public String getAnswerD() {
-        return AnswerD;
-    }
-
-    public void setAnswerD(String answerD) {
-        AnswerD = answerD;
-    }
 
     public String getCorrectAnswer() {
         return CorrectAnswer;

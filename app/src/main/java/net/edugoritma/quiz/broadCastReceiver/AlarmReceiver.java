@@ -26,8 +26,8 @@ public class AlarmReceiver extends BroadcastReceiver {
         Uri alarmSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context)
                 .setSmallIcon(R.mipmap.ic_launcher_round)
-                .setContentTitle("QUIZZZZ")
-                .setContentText("Ayo Dolan Maneh Bosq!!")
+                .setContentTitle("QUIZ QUIZ QUIZ")
+                .setContentText("Ayo Dolan Maneh Bosque!!")
                 .setSound(alarmSound)
                 .setAutoCancel(true)
                 .setWhen(when)
