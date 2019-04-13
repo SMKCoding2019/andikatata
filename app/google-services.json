@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "270551614868",
+    "firebase_url": "https://onlinequizapp-b344d.firebaseio.com",
+    "project_id": "onlinequizapp-b344d",
+    "storage_bucket": "onlinequizapp-b344d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270551614868:android:faa1cd91c592f834",
+        "android_client_info": {
+          "package_name": "net.edugoritma.quiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270551614868-sqnqdt4l8pkc7o3h85400ivjuahbile0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.androidonlinequizapp",
+            "certificate_hash": "a3b2caa985aed7a075435d6298f88cc36d40239a"
+          }
+        },
+        {
+          "client_id": "270551614868-igpvr7l351oegvvhchtoeqhlieegs95q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYS8XQJdWDf-Th7VwkYx6Jlk2Qn6e0IZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "270551614868-igpvr7l351oegvvhchtoeqhlieegs95q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
